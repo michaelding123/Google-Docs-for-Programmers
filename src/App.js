@@ -8,6 +8,7 @@ function App() {
       height="90vh"
       defaultLanguage="python"
       defaultValue="// some comment"
+      theme="vs-dark"
       onChange={(value, event) => {
         console.log("value:", value);
       }}
